@@ -5,8 +5,8 @@ import "fmt"
 func intSeq() func() int {
 	i := 0
 	return func() int {
-		i += 1
-    return i
+		i++
+		return i
 	}
 }
 
@@ -18,8 +18,8 @@ func main() {
 	fmt.Println(nextVal())
 	fmt.Println(nextVal())
 
-  newVal := intSeq()
+	newVal := intSeq()
 
-  fmt.Println(newVal())
+	fmt.Println(newVal())
 
 }
