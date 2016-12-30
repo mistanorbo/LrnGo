@@ -26,4 +26,6 @@ func main() {
 
 	// https://gobyexample.com/pointers
 
+	// http://piotrzurek.net/2013/09/20/pointers-in-go.html
+
 }
